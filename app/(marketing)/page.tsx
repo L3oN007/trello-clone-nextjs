@@ -40,7 +40,7 @@ const MarketingPage = () => {
 				<h1 className='text-3xl md:text-6xl text-center text-neutral-800 mb-6'>
 					Taskify helps team move
 				</h1>
-				<div className='text-3xl md:text-6xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white px-4 p-2 rounded-md  w-fit'>
+				<div className='text-3xl md:text-6xl bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white px-4 p-2 pt-4 rounded-md  w-fit'>
 					work forward.
 				</div>
 			</div>
