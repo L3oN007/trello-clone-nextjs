@@ -5,6 +5,7 @@ import { Plus } from 'lucide-react';
 import { MobileSidebar } from './mobile-sidebar';
 import { Suspense } from 'react';
 import { FormPopover } from '@/components/form/form-popover';
+import { Skeleton } from '@/components/ui/skeleton';
 
 export const Navbar = () => {
 	return (
