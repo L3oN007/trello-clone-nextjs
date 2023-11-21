@@ -19,6 +19,9 @@ interface BoardOptionsProps {
 
 export const BoardOptions = ({ id }: BoardOptionsProps) => {
 	const { execute, isLoading } = useAction(deleteBoard, {
+		onSuccess: () => {
+			toast.success('Board deleted successfully');
+		},
 		onError: (error) => {
 			toast.error(error);
 		},
